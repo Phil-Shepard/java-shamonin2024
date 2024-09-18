@@ -10,7 +10,7 @@ import ru.naumen.cookingrecipesbot.domains.Recipe;
 import java.io.IOException;
 import java.util.ArrayList;
 
-//Паттерн Синглтон
+//"Паттерн Singleton"
 @Service
 public class ParserPageService {
 
