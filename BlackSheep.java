@@ -1,3 +1,4 @@
+//Паттерн Prototype
 public class BlackSheep implements Sheep {
     private String name;
 
