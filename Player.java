@@ -1,3 +1,4 @@
+//паттерн Static Fabric Method
 public class Player {
 
     String name;
