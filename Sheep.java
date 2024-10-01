@@ -1,3 +1,4 @@
+//паттерн Prototype
 public interface Sheep {
     Sheep clone();
     String getName();
