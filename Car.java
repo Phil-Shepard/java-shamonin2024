@@ -1,3 +1,4 @@
+//паттерн Builder
 public class Car {
     private final String engine;
     private final int wheels;
