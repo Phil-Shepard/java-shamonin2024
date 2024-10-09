@@ -41,6 +41,11 @@
 
 
 Задание 8. Adapter
+Интерфейс USBTypeC определяет метод chargeWithUSBC() предназначенный для работы с устройствами, использующими USB-C.
+Адаптируемый класс класс LightningDevice имеет метод chargeWithLightning(), несовместимый с целевым интерфейсом.
+Класс LightningToUSBCAdapter является адаптером, он реализует интерфейс USBTypeC, переводя вызовы chargeWithUSBC() в вызовы chargeWithLightning().
+Класс LightningToUSBCAdapter наследуется от интерфейса USBTypeC, а также содержит в своем поле класс LightningDevice, который передается в конструктор.
+Таким образом в классе LightningToUSBCAdapter композируется класс LightningDevice.
 
 
 
